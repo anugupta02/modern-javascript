@@ -23,17 +23,17 @@ console.log(Array.from("anu"));
 
 var a = ["a", "b", "c"];
 a.forEach(function(entry) {
-   // console.log(entry);
+    // console.log(entry);
 });
 
 arrays = ["example1", "example2", "example3"];
 
 printArray = [1,2,6,3,21,8,25];
-    printArray.forEach(function (ent){
+printArray.forEach(function (ent){
     console.log("arr",ent);
 })
 //for (i = 0; i < array.length; i++)
-   // console.log((i+1) + ": " + array[i]);
+// console.log((i+1) + ": " + array[i]);
 
 /* finding out a Pair of Values while passing any value in a function */
 
