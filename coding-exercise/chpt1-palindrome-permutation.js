@@ -10,8 +10,8 @@ function checkIfStringIsPermutation(string) {
     
     if (listOfCharacters.has(string.charAt(i))) {
       // Get number of letters, pre-increment, then set new value
-      var numOfOccurances = listOfCharacters.get(string.charAt(i));
-      listOfCharacters.set(string.charAt(i), ++numOfOccurances);
+      var numOfOccurences = listOfCharacters.get(string.charAt(i));
+      listOfCharacters.set(string.charAt(i), ++numOfOccurences);
     } else {
       listOfCharacters.set(string.charAt(i), 1);
     }

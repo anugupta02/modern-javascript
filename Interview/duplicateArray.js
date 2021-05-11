@@ -23,3 +23,13 @@ console.log(removeDuplicate(arr))
 var obj = JSON.parse('{ "name":"Anu"}');
 console.log(obj.name.length);
 
+console.log(Object.keys(obj.name).length);
+
+
+function wordCount(str) {
+    return str.split(' ')
+        .filter(function(n) { return n != '' })
+        .length;
+}
+
+wordCount("Anu Gupta")
